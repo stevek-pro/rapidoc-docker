@@ -42,7 +42,7 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          file: docker/Dockerfile
+          file: Dockerfile
           tags: |
             cococloud/rapidoc-docker:latest
             cococloud/rapidoc-docker:0.0.1
